@@ -50,13 +50,20 @@ z = float(3)  # z will be 3.0
 """
 
 #GET THE TYPE
-
+"""
 #You can get the data type of a variable with the type() function.
 x = 5
 y = "John"
 print(type(x))
 print(type(y))
+"""
 
+#It is possible to assign values to multiple variables in one line
+
+x, y, z = "Orange", "Banana", "Cherry"
+print(x)
+print(y)
+print(z)
 
 
 
