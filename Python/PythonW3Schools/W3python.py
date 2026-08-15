@@ -69,7 +69,22 @@ print(z)
 
 #ONE VALUE TO MULTIPLE VARIABLES
 
+"""
 x = y = z = "Orange"
+print(x)
+print(y)
+print(z)
+"""
+
+#UNPACK A COLLECTION
+
+#If oyu have a collection os values in a list, tuple etc.
+#Python allows you to extract the values into variables, this is called unpacking.
+
+#Unpack a list
+
+fruits = ["apple", "banana", "cherry"]
+x, y, z = fruits
 print(x)
 print(y)
 print(z)
