@@ -60,10 +60,23 @@ print(type(y))
 
 #It is possible to assign values to multiple variables in one line
 
+"""
 x, y, z = "Orange", "Banana", "Cherry"
 print(x)
 print(y)
 print(z)
+"""
+
+#ONE VALUE TO MULTIPLE VARIABLES
+
+x = y = z = "Orange"
+print(x)
+print(y)
+print(z)
+
+
+
+
 
 
 
